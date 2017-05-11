@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83DD044E1EC406C200C63378 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83DD044D1EC406C200C63378 /* test.jpg */; };
 		83DEB4DD1EC17AC100ABBA15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB4DC1EC17AC100ABBA15 /* main.m */; };
 		83DEB4E01EC17AC100ABBA15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB4DF1EC17AC100ABBA15 /* AppDelegate.m */; };
 		83DEB4E31EC17AC100ABBA15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB4E21EC17AC100ABBA15 /* ViewController.m */; };
@@ -15,6 +16,24 @@
 		83DEB4EB1EC17AC100ABBA15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83DEB4E91EC17AC100ABBA15 /* LaunchScreen.storyboard */; };
 		83DEB4F61EC17AC100ABBA15 /* OpenGlES_02__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB4F51EC17AC100ABBA15 /* OpenGlES_02__Tests.m */; };
 		83DEB5011EC17AC100ABBA15 /* OpenGlES_02__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB5001EC17AC100ABBA15 /* OpenGlES_02__UITests.m */; };
+		83DEB52D1EC19AE500ABBA15 /* AGLKCollision.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB5111EC19AE500ABBA15 /* AGLKCollision.m */; };
+		83DEB52E1EC19AE500ABBA15 /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB5131EC19AE500ABBA15 /* AGLKContext.m */; };
+		83DEB52F1EC19AE500ABBA15 /* AGLKFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB5151EC19AE500ABBA15 /* AGLKFilters.m */; };
+		83DEB5301EC19AE500ABBA15 /* AGLKFrustum.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB5171EC19AE500ABBA15 /* AGLKFrustum.m */; };
+		83DEB5311EC19AE500ABBA15 /* AGLKPointParticleEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB5191EC19AE500ABBA15 /* AGLKPointParticleEffect.m */; };
+		83DEB5331EC19AE500ABBA15 /* AGLKTextureLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB51D1EC19AE500ABBA15 /* AGLKTextureLoader.m */; };
+		83DEB5341EC19AE500ABBA15 /* AGLKTextureTransformBaseEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB51F1EC19AE500ABBA15 /* AGLKTextureTransformBaseEffect.m */; };
+		83DEB5351EC19AE500ABBA15 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB5211EC19AE500ABBA15 /* AGLKVertexAttribArrayBuffer.m */; };
+		83DEB5361EC19AE500ABBA15 /* AGLKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB5231EC19AE500ABBA15 /* AGLKView.m */; };
+		83DEB5371EC19AE500ABBA15 /* AGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB5251EC19AE500ABBA15 /* AGLKViewController.m */; };
+		83DEB5381EC19AE500ABBA15 /* AGLKPointParticleShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 83DEB5271EC19AE500ABBA15 /* AGLKPointParticleShader.fsh */; };
+		83DEB5391EC19AE500ABBA15 /* AGLKPointParticleShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 83DEB5281EC19AE500ABBA15 /* AGLKPointParticleShader.vsh */; };
+		83DEB53A1EC19AE500ABBA15 /* AGLKSkyboxShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 83DEB5291EC19AE500ABBA15 /* AGLKSkyboxShader.fsh */; };
+		83DEB53B1EC19AE500ABBA15 /* AGLKSkyboxShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 83DEB52A1EC19AE500ABBA15 /* AGLKSkyboxShader.vsh */; };
+		83DEB53C1EC19AE500ABBA15 /* AGLKTextureMatrix2PointLightShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 83DEB52B1EC19AE500ABBA15 /* AGLKTextureMatrix2PointLightShader.fsh */; };
+		83DEB53D1EC19AE500ABBA15 /* AGLKTextureMatrix2PointLightShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 83DEB52C1EC19AE500ABBA15 /* AGLKTextureMatrix2PointLightShader.vsh */; };
+		83DEB5411EC1A2BF00ABBA15 /* test02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83DEB5401EC1A2BF00ABBA15 /* test02.jpg */; };
+		83DEB5481EC2EFE300ABBA15 /* test03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83DEB5471EC2EFE300ABBA15 /* test03.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		83DEB4D81EC17AC100ABBA15 /* OpenGlES-02纹理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGlES-02纹理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DD044D1EC406C200C63378 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		83DEB4D81EC17AC100ABBA15 /* OpenGlES-3.1纹理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGlES-3.1纹理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DEB4DC1EC17AC100ABBA15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83DEB4DE1EC17AC100ABBA15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83DEB4DF1EC17AC100ABBA15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,12 +65,42 @@
 		83DEB4E71EC17AC100ABBA15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83DEB4EA1EC17AC100ABBA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83DEB4EC1EC17AC100ABBA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83DEB4F11EC17AC100ABBA15 /* OpenGlES-02纹理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGlES-02纹理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DEB4F11EC17AC100ABBA15 /* OpenGlES-3.1纹理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGlES-3.1纹理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DEB4F51EC17AC100ABBA15 /* OpenGlES_02__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGlES_02__Tests.m; sourceTree = "<group>"; };
 		83DEB4F71EC17AC100ABBA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83DEB4FC1EC17AC100ABBA15 /* OpenGlES-02纹理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGlES-02纹理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DEB4FC1EC17AC100ABBA15 /* OpenGlES-3.1纹理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGlES-3.1纹理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DEB5001EC17AC100ABBA15 /* OpenGlES_02__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGlES_02__UITests.m; sourceTree = "<group>"; };
 		83DEB5021EC17AC100ABBA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83DEB50F1EC19AE500ABBA15 /* AGLKAxisAllignedBoundingBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKAxisAllignedBoundingBox.h; sourceTree = "<group>"; };
+		83DEB5101EC19AE500ABBA15 /* AGLKCollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKCollision.h; sourceTree = "<group>"; };
+		83DEB5111EC19AE500ABBA15 /* AGLKCollision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKCollision.m; sourceTree = "<group>"; };
+		83DEB5121EC19AE500ABBA15 /* AGLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKContext.h; sourceTree = "<group>"; };
+		83DEB5131EC19AE500ABBA15 /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKContext.m; sourceTree = "<group>"; };
+		83DEB5141EC19AE500ABBA15 /* AGLKFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKFilters.h; sourceTree = "<group>"; };
+		83DEB5151EC19AE500ABBA15 /* AGLKFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKFilters.m; sourceTree = "<group>"; };
+		83DEB5161EC19AE500ABBA15 /* AGLKFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKFrustum.h; sourceTree = "<group>"; };
+		83DEB5171EC19AE500ABBA15 /* AGLKFrustum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKFrustum.m; sourceTree = "<group>"; };
+		83DEB5181EC19AE500ABBA15 /* AGLKPointParticleEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKPointParticleEffect.h; sourceTree = "<group>"; };
+		83DEB5191EC19AE500ABBA15 /* AGLKPointParticleEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKPointParticleEffect.m; sourceTree = "<group>"; };
+		83DEB51C1EC19AE500ABBA15 /* AGLKTextureLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKTextureLoader.h; sourceTree = "<group>"; };
+		83DEB51D1EC19AE500ABBA15 /* AGLKTextureLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKTextureLoader.m; sourceTree = "<group>"; };
+		83DEB51E1EC19AE500ABBA15 /* AGLKTextureTransformBaseEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKTextureTransformBaseEffect.h; sourceTree = "<group>"; };
+		83DEB51F1EC19AE500ABBA15 /* AGLKTextureTransformBaseEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKTextureTransformBaseEffect.m; sourceTree = "<group>"; };
+		83DEB5201EC19AE500ABBA15 /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		83DEB5211EC19AE500ABBA15 /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		83DEB5221EC19AE500ABBA15 /* AGLKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKView.h; sourceTree = "<group>"; };
+		83DEB5231EC19AE500ABBA15 /* AGLKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKView.m; sourceTree = "<group>"; };
+		83DEB5241EC19AE500ABBA15 /* AGLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKViewController.h; sourceTree = "<group>"; };
+		83DEB5251EC19AE500ABBA15 /* AGLKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKViewController.m; sourceTree = "<group>"; };
+		83DEB5271EC19AE500ABBA15 /* AGLKPointParticleShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKPointParticleShader.fsh; sourceTree = "<group>"; };
+		83DEB5281EC19AE500ABBA15 /* AGLKPointParticleShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKPointParticleShader.vsh; sourceTree = "<group>"; };
+		83DEB5291EC19AE500ABBA15 /* AGLKSkyboxShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKSkyboxShader.fsh; sourceTree = "<group>"; };
+		83DEB52A1EC19AE500ABBA15 /* AGLKSkyboxShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKSkyboxShader.vsh; sourceTree = "<group>"; };
+		83DEB52B1EC19AE500ABBA15 /* AGLKTextureMatrix2PointLightShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKTextureMatrix2PointLightShader.fsh; sourceTree = "<group>"; };
+		83DEB52C1EC19AE500ABBA15 /* AGLKTextureMatrix2PointLightShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKTextureMatrix2PointLightShader.vsh; sourceTree = "<group>"; };
+		83DEB5401EC1A2BF00ABBA15 /* test02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test02.jpg; sourceTree = "<group>"; };
+		83DEB5441EC1BA1200ABBA15 /* AGLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKit.h; sourceTree = "<group>"; };
+		83DEB5471EC2EFE300ABBA15 /* test03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test03.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +141,9 @@
 		83DEB4D91EC17AC100ABBA15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83DEB4D81EC17AC100ABBA15 /* OpenGlES-02纹理.app */,
-				83DEB4F11EC17AC100ABBA15 /* OpenGlES-02纹理Tests.xctest */,
-				83DEB4FC1EC17AC100ABBA15 /* OpenGlES-02纹理UITests.xctest */,
+				83DEB4D81EC17AC100ABBA15 /* OpenGlES-3.1纹理.app */,
+				83DEB4F11EC17AC100ABBA15 /* OpenGlES-3.1纹理Tests.xctest */,
+				83DEB4FC1EC17AC100ABBA15 /* OpenGlES-3.1纹理UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +151,7 @@
 		83DEB4DA1EC17AC100ABBA15 /* OpenGlES-02纹理 */ = {
 			isa = PBXGroup;
 			children = (
+				83DEB50E1EC19AE500ABBA15 /* AGLKit */,
 				83DEB4DE1EC17AC100ABBA15 /* AppDelegate.h */,
 				83DEB4DF1EC17AC100ABBA15 /* AppDelegate.m */,
 				83DEB4E11EC17AC100ABBA15 /* ViewController.h */,
@@ -109,6 +160,9 @@
 				83DEB4E71EC17AC100ABBA15 /* Assets.xcassets */,
 				83DEB4E91EC17AC100ABBA15 /* LaunchScreen.storyboard */,
 				83DEB4EC1EC17AC100ABBA15 /* Info.plist */,
+				83DD044D1EC406C200C63378 /* test.jpg */,
+				83DEB5471EC2EFE300ABBA15 /* test03.jpg */,
+				83DEB5401EC1A2BF00ABBA15 /* test02.jpg */,
 				83DEB4DB1EC17AC100ABBA15 /* Supporting Files */,
 			);
 			path = "OpenGlES-02纹理";
@@ -140,12 +194,55 @@
 			path = "OpenGlES-02纹理UITests";
 			sourceTree = "<group>";
 		};
+		83DEB50E1EC19AE500ABBA15 /* AGLKit */ = {
+			isa = PBXGroup;
+			children = (
+				83DEB50F1EC19AE500ABBA15 /* AGLKAxisAllignedBoundingBox.h */,
+				83DEB5101EC19AE500ABBA15 /* AGLKCollision.h */,
+				83DEB5111EC19AE500ABBA15 /* AGLKCollision.m */,
+				83DEB5121EC19AE500ABBA15 /* AGLKContext.h */,
+				83DEB5131EC19AE500ABBA15 /* AGLKContext.m */,
+				83DEB5141EC19AE500ABBA15 /* AGLKFilters.h */,
+				83DEB5151EC19AE500ABBA15 /* AGLKFilters.m */,
+				83DEB5161EC19AE500ABBA15 /* AGLKFrustum.h */,
+				83DEB5171EC19AE500ABBA15 /* AGLKFrustum.m */,
+				83DEB5181EC19AE500ABBA15 /* AGLKPointParticleEffect.h */,
+				83DEB5191EC19AE500ABBA15 /* AGLKPointParticleEffect.m */,
+				83DEB51C1EC19AE500ABBA15 /* AGLKTextureLoader.h */,
+				83DEB51D1EC19AE500ABBA15 /* AGLKTextureLoader.m */,
+				83DEB51E1EC19AE500ABBA15 /* AGLKTextureTransformBaseEffect.h */,
+				83DEB51F1EC19AE500ABBA15 /* AGLKTextureTransformBaseEffect.m */,
+				83DEB5201EC19AE500ABBA15 /* AGLKVertexAttribArrayBuffer.h */,
+				83DEB5211EC19AE500ABBA15 /* AGLKVertexAttribArrayBuffer.m */,
+				83DEB5221EC19AE500ABBA15 /* AGLKView.h */,
+				83DEB5231EC19AE500ABBA15 /* AGLKView.m */,
+				83DEB5241EC19AE500ABBA15 /* AGLKViewController.h */,
+				83DEB5251EC19AE500ABBA15 /* AGLKViewController.m */,
+				83DEB5261EC19AE500ABBA15 /* Shaders */,
+				83DEB5441EC1BA1200ABBA15 /* AGLKit.h */,
+			);
+			path = AGLKit;
+			sourceTree = "<group>";
+		};
+		83DEB5261EC19AE500ABBA15 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				83DEB5271EC19AE500ABBA15 /* AGLKPointParticleShader.fsh */,
+				83DEB5281EC19AE500ABBA15 /* AGLKPointParticleShader.vsh */,
+				83DEB5291EC19AE500ABBA15 /* AGLKSkyboxShader.fsh */,
+				83DEB52A1EC19AE500ABBA15 /* AGLKSkyboxShader.vsh */,
+				83DEB52B1EC19AE500ABBA15 /* AGLKTextureMatrix2PointLightShader.fsh */,
+				83DEB52C1EC19AE500ABBA15 /* AGLKTextureMatrix2PointLightShader.vsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83DEB4D71EC17AC100ABBA15 /* OpenGlES-02纹理 */ = {
+		83DEB4D71EC17AC100ABBA15 /* OpenGlES-3.1纹理 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83DEB5051EC17AC100ABBA15 /* Build configuration list for PBXNativeTarget "OpenGlES-02纹理" */;
+			buildConfigurationList = 83DEB5051EC17AC100ABBA15 /* Build configuration list for PBXNativeTarget "OpenGlES-3.1纹理" */;
 			buildPhases = (
 				83DEB4D41EC17AC100ABBA15 /* Sources */,
 				83DEB4D51EC17AC100ABBA15 /* Frameworks */,
@@ -155,14 +252,14 @@
 			);
 			dependencies = (
 			);
-			name = "OpenGlES-02纹理";
+			name = "OpenGlES-3.1纹理";
 			productName = "OpenGlES-02纹理";
-			productReference = 83DEB4D81EC17AC100ABBA15 /* OpenGlES-02纹理.app */;
+			productReference = 83DEB4D81EC17AC100ABBA15 /* OpenGlES-3.1纹理.app */;
 			productType = "com.apple.product-type.application";
 		};
-		83DEB4F01EC17AC100ABBA15 /* OpenGlES-02纹理Tests */ = {
+		83DEB4F01EC17AC100ABBA15 /* OpenGlES-3.1纹理Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83DEB5081EC17AC100ABBA15 /* Build configuration list for PBXNativeTarget "OpenGlES-02纹理Tests" */;
+			buildConfigurationList = 83DEB5081EC17AC100ABBA15 /* Build configuration list for PBXNativeTarget "OpenGlES-3.1纹理Tests" */;
 			buildPhases = (
 				83DEB4ED1EC17AC100ABBA15 /* Sources */,
 				83DEB4EE1EC17AC100ABBA15 /* Frameworks */,
@@ -173,14 +270,14 @@
 			dependencies = (
 				83DEB4F31EC17AC100ABBA15 /* PBXTargetDependency */,
 			);
-			name = "OpenGlES-02纹理Tests";
+			name = "OpenGlES-3.1纹理Tests";
 			productName = "OpenGlES-02纹理Tests";
-			productReference = 83DEB4F11EC17AC100ABBA15 /* OpenGlES-02纹理Tests.xctest */;
+			productReference = 83DEB4F11EC17AC100ABBA15 /* OpenGlES-3.1纹理Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		83DEB4FB1EC17AC100ABBA15 /* OpenGlES-02纹理UITests */ = {
+		83DEB4FB1EC17AC100ABBA15 /* OpenGlES-3.1纹理UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83DEB50B1EC17AC100ABBA15 /* Build configuration list for PBXNativeTarget "OpenGlES-02纹理UITests" */;
+			buildConfigurationList = 83DEB50B1EC17AC100ABBA15 /* Build configuration list for PBXNativeTarget "OpenGlES-3.1纹理UITests" */;
 			buildPhases = (
 				83DEB4F81EC17AC100ABBA15 /* Sources */,
 				83DEB4F91EC17AC100ABBA15 /* Frameworks */,
@@ -191,9 +288,9 @@
 			dependencies = (
 				83DEB4FE1EC17AC100ABBA15 /* PBXTargetDependency */,
 			);
-			name = "OpenGlES-02纹理UITests";
+			name = "OpenGlES-3.1纹理UITests";
 			productName = "OpenGlES-02纹理UITests";
-			productReference = 83DEB4FC1EC17AC100ABBA15 /* OpenGlES-02纹理UITests.xctest */;
+			productReference = 83DEB4FC1EC17AC100ABBA15 /* OpenGlES-3.1纹理UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +318,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83DEB4D31EC17AC100ABBA15 /* Build configuration list for PBXProject "OpenGlES-02纹理" */;
+			buildConfigurationList = 83DEB4D31EC17AC100ABBA15 /* Build configuration list for PBXProject "OpenGlES-3.1纹理" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,9 +331,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83DEB4D71EC17AC100ABBA15 /* OpenGlES-02纹理 */,
-				83DEB4F01EC17AC100ABBA15 /* OpenGlES-02纹理Tests */,
-				83DEB4FB1EC17AC100ABBA15 /* OpenGlES-02纹理UITests */,
+				83DEB4D71EC17AC100ABBA15 /* OpenGlES-3.1纹理 */,
+				83DEB4F01EC17AC100ABBA15 /* OpenGlES-3.1纹理Tests */,
+				83DEB4FB1EC17AC100ABBA15 /* OpenGlES-3.1纹理UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,7 +345,16 @@
 			files = (
 				83DEB4EB1EC17AC100ABBA15 /* LaunchScreen.storyboard in Resources */,
 				83DEB4E81EC17AC100ABBA15 /* Assets.xcassets in Resources */,
+				83DEB5381EC19AE500ABBA15 /* AGLKPointParticleShader.fsh in Resources */,
+				83DD044E1EC406C200C63378 /* test.jpg in Resources */,
+				83DEB5411EC1A2BF00ABBA15 /* test02.jpg in Resources */,
+				83DEB53A1EC19AE500ABBA15 /* AGLKSkyboxShader.fsh in Resources */,
+				83DEB53B1EC19AE500ABBA15 /* AGLKSkyboxShader.vsh in Resources */,
+				83DEB53C1EC19AE500ABBA15 /* AGLKTextureMatrix2PointLightShader.fsh in Resources */,
 				83DEB4E61EC17AC100ABBA15 /* Main.storyboard in Resources */,
+				83DEB5481EC2EFE300ABBA15 /* test03.jpg in Resources */,
+				83DEB53D1EC19AE500ABBA15 /* AGLKTextureMatrix2PointLightShader.vsh in Resources */,
+				83DEB5391EC19AE500ABBA15 /* AGLKPointParticleShader.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +379,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83DEB5351EC19AE500ABBA15 /* AGLKVertexAttribArrayBuffer.m in Sources */,
+				83DEB5331EC19AE500ABBA15 /* AGLKTextureLoader.m in Sources */,
+				83DEB52E1EC19AE500ABBA15 /* AGLKContext.m in Sources */,
 				83DEB4E31EC17AC100ABBA15 /* ViewController.m in Sources */,
+				83DEB52D1EC19AE500ABBA15 /* AGLKCollision.m in Sources */,
 				83DEB4E01EC17AC100ABBA15 /* AppDelegate.m in Sources */,
+				83DEB5301EC19AE500ABBA15 /* AGLKFrustum.m in Sources */,
+				83DEB52F1EC19AE500ABBA15 /* AGLKFilters.m in Sources */,
+				83DEB5341EC19AE500ABBA15 /* AGLKTextureTransformBaseEffect.m in Sources */,
+				83DEB5311EC19AE500ABBA15 /* AGLKPointParticleEffect.m in Sources */,
 				83DEB4DD1EC17AC100ABBA15 /* main.m in Sources */,
+				83DEB5361EC19AE500ABBA15 /* AGLKView.m in Sources */,
+				83DEB5371EC19AE500ABBA15 /* AGLKViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,12 +416,12 @@
 /* Begin PBXTargetDependency section */
 		83DEB4F31EC17AC100ABBA15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83DEB4D71EC17AC100ABBA15 /* OpenGlES-02纹理 */;
+			target = 83DEB4D71EC17AC100ABBA15 /* OpenGlES-3.1纹理 */;
 			targetProxy = 83DEB4F21EC17AC100ABBA15 /* PBXContainerItemProxy */;
 		};
 		83DEB4FE1EC17AC100ABBA15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83DEB4D71EC17AC100ABBA15 /* OpenGlES-02纹理 */;
+			target = 83DEB4D71EC17AC100ABBA15 /* OpenGlES-3.1纹理 */;
 			targetProxy = 83DEB4FD1EC17AC100ABBA15 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -450,7 +566,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chenshiwen.com.OpenGlES-02--Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGlES-02纹理.app/OpenGlES-02纹理";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGlES-3.1纹理.app/OpenGlES-3.1纹理";
 			};
 			name = Debug;
 		};
@@ -462,7 +578,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chenshiwen.com.OpenGlES-02--Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGlES-02纹理.app/OpenGlES-02纹理";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGlES-3.1纹理.app/OpenGlES-3.1纹理";
 			};
 			name = Release;
 		};
@@ -491,7 +607,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83DEB4D31EC17AC100ABBA15 /* Build configuration list for PBXProject "OpenGlES-02纹理" */ = {
+		83DEB4D31EC17AC100ABBA15 /* Build configuration list for PBXProject "OpenGlES-3.1纹理" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83DEB5031EC17AC100ABBA15 /* Debug */,
@@ -500,29 +616,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83DEB5051EC17AC100ABBA15 /* Build configuration list for PBXNativeTarget "OpenGlES-02纹理" */ = {
+		83DEB5051EC17AC100ABBA15 /* Build configuration list for PBXNativeTarget "OpenGlES-3.1纹理" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83DEB5061EC17AC100ABBA15 /* Debug */,
 				83DEB5071EC17AC100ABBA15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		83DEB5081EC17AC100ABBA15 /* Build configuration list for PBXNativeTarget "OpenGlES-02纹理Tests" */ = {
+		83DEB5081EC17AC100ABBA15 /* Build configuration list for PBXNativeTarget "OpenGlES-3.1纹理Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83DEB5091EC17AC100ABBA15 /* Debug */,
 				83DEB50A1EC17AC100ABBA15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		83DEB50B1EC17AC100ABBA15 /* Build configuration list for PBXNativeTarget "OpenGlES-02纹理UITests" */ = {
+		83DEB50B1EC17AC100ABBA15 /* Build configuration list for PBXNativeTarget "OpenGlES-3.1纹理UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83DEB50C1EC17AC100ABBA15 /* Debug */,
 				83DEB50D1EC17AC100ABBA15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
